@@ -5,6 +5,10 @@ build/
 !**/src/test/**/build/
 .kotlin
 
+### Application runtime data ###
+data/
+logs/
+
 ### IntelliJ IDEA ###
 .idea
 docs

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <!-- В тестах логи никуда не пишем, чтобы не создавать каталог logs. -->
+  <appender name="NOP" class="ch.qos.logback.core.helpers.NOPAppender"/>
+
+  <root level="INFO">
+    <appender-ref ref="NOP"/>
+  </root>
+</configuration>

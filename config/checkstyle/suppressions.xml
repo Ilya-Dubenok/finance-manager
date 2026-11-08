@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+    "-//Checkstyle//DTD SuppressionFilter Configuration 1.2//EN"
+    "https://checkstyle.org/dtds/suppressions_1_2.dtd">
+
+<!--
+    Отступления от google_checks.xml (подключается из build.gradle.kts через свойство
+    org.checkstyle.google.suppressionfilter.config). Каждое отступление пишется с причиной.
+
+    Javadoc не обязателен: имена и сигнатуры портов, сервисов и DTO говорят сами за себя,
+    обязательный комментарий к каждому методу даёт шум. Правила оформления Javadoc
+    (SummaryJavadoc, JavadocParagraph и др.) остаются включёнными для уже написанных комментариев.
+ -->
+
+<suppressions>
+    <suppress checks="MissingJavadocType"/>
+    <suppress checks="MissingJavadocMethod"/>
+</suppressions>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <!-- Терминал занят меню, поэтому логи пишутся только в файл. -->
+  <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <file>logs/finmanager.log</file>
+    <encoder>
+      <charset>UTF-8</charset>
+      <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <root level="INFO">
+    <appender-ref ref="FILE"/>
+  </root>
+</configuration>
