@@ -1,0 +1,56 @@
+{
+  "version" : 1,
+  "owner" : "bob",
+  "categories" : [ {
+    "name" : "Transfers",
+    "type" : "INCOME"
+  }, {
+    "name" : "Transfers",
+    "type" : "EXPENSE"
+  }, {
+    "name" : "Salary",
+    "type" : "INCOME"
+  }, {
+    "name" : "Bonus",
+    "type" : "INCOME"
+  }, {
+    "name" : "Food",
+    "type" : "EXPENSE"
+  }, {
+    "name" : "Taxi",
+    "type" : "EXPENSE"
+  } ],
+  "budgets" : [ {
+    "category" : "Food",
+    "limit" : "60.00"
+  } ],
+  "operations" : [ {
+    "type" : "INCOME",
+    "category" : "Transfers",
+    "amount" : "50.00",
+    "date" : "2026-11-09",
+    "comment" : null,
+    "counterparty" : "alice"
+  }, {
+    "type" : "INCOME",
+    "category" : "Transfers",
+    "amount" : "50.00",
+    "date" : "2026-11-09",
+    "comment" : "hello",
+    "counterparty" : "alice"
+  }, {
+    "type" : "INCOME",
+    "category" : "Salary",
+    "amount" : "1500.00",
+    "date" : "2026-11-09",
+    "comment" : null,
+    "counterparty" : null
+  }, {
+    "type" : "EXPENSE",
+    "category" : "Food",
+    "amount" : "90.00",
+    "date" : "2026-11-09",
+    "comment" : null,
+    "counterparty" : null
+  } ]
+}
